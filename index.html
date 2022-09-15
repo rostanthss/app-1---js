@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <h1>Calculadora</h1>
+    <br>
+    <div id="calculadora">
+
+        <input type="text" name="" id="visor" placeholder="0">
+        
+        <div id="botoes">
+            <div id="areaOperacoes1">
+                <input id="c" onclick="calcular('acao','c')" class="botaoEspecial1" type="button" value="C">
+                <input id="/" onclick="calcular('acao','/')" class="botaoNumero" type="button" value="/">
+            </div>
+
+            <div id="areaNumeros">
+                <input id="7" onclick="calcular('valor',7)" class="botaoNumero" type="button" value="7">
+                <input id="8" onclick="calcular('valor',8)" class="botaoNumero" type="button" value="8">
+                <input id="9" onclick="calcular('valor',9)" class="botaoNumero" type="button" value="9">
+                <input id="4" onclick="calcular('valor',4)" class="botaoNumero" type="button" value="4">
+                <input id="5" onclick="calcular('valor',5)" class="botaoNumero" type="button" value="5">
+                <input id="6" onclick="calcular('valor',6)" class="botaoNumero" type="button" value="6">
+                <input id="1" onclick="calcular('valor',1)" class="botaoNumero" type="button" value="1">
+                <input id="2" onclick="calcular('valor',2)" class="botaoNumero" type="button" value="2">
+                <input id="3" onclick="calcular('valor',3)" class="botaoNumero" type="button" value="3">
+                <input id="0" onclick="calcular('valor',0)" class="botaoEspecial1" type="button" value="0">
+                <input id="." onclick="calcular('acao','.')" class="botaoNumero" type="button" value=".">
+
+            </div>
+
+            <div id="areaOperacoes2">
+                <input id="x" onclick="calcular('acao','x')" class="botaoNumero" type="button" value="x">
+                <input id="-" onclick="calcular('acao','-')" class="botaoNumero" type="button" value="-">
+                <input id="+" onclick="calcular('acao','+')" class="botaoNumero" type="button" value="+">
+                <input id="=" onclick="calcular('acao','=')" class="botaoEspecial2" type="button" value="=">
+
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

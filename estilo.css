@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+body{
+    background: rgb(216, 216, 216);
+}
+
+
+#calculadora{
+    background: rgb(58, 57, 57);
+
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#visor{
+    background: white;
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#botoes{
+    width: 360px;
+    height: 400px;
+    margin: 20px;
+    
+}
+
+.botaoNumero{
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botaoEspecial1{
+    width: 155px;
+    height: 75px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botaoEspecial2{
+    width: 75px;
+    height: 150px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#areaOperacoes1{
+    width: 240px;
+    height: 80px;
+    padding-left: 10px;
+    
+    
+    
+}
+
+#areaOperacoes2{
+    width: 80px;
+    height: 400px;
+    
+    position: relative;
+    bottom: 400px;
+    left: 270px;
+    
+    
+}
+
+#areaNumeros{
+    width: 240px;
+    height: 320px;
+    padding-left: 10px;
+   
+    
+    
+}
